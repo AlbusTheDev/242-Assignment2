@@ -1,0 +1,19 @@
+.footers-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+  margin-top: 0px;
+  align-items: center;
+  flex-direction: row;
+}
+.footers-links-navlink {
+  font-size: 24px;
+  margin-left: 0px;
+  text-decoration: none;
+}
+.footers-links-navlink1 {
+  font-size: 24px;
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+

@@ -1,0 +1,92 @@
+.search-listing-container {
+  width: 100%;
+  height: 284px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.search-listing-result-item {
+  width: 100%;
+  display: grid;
+  padding: var(--dl-space-space-threeunits);
+  grid-gap: var(--dl-space-space-twounits);
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.search-listing-image {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+.search-listing-container1 {
+  flex: 0 0 auto;
+  width: 718px;
+  height: 164px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.search-listing-text {
+  font-size: 32px;
+  text-transform: capitalize;
+}
+.search-listing-text1 {
+  padding-top: var(--dl-space-space-threeunits);
+}
+.search-listing-text3 {
+  font-size: 32px;
+}
+
+@media(max-width: 767px) {
+  .search-listing-result-item {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width: 479px) {
+  .search-listing-result-item {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+    grid-template-columns: 1fr;
+  }
+  .search-listing-image {
+    top: -6px;
+    left: 14px;
+    width: 260px;
+    height: 116px;
+    position: absolute;
+  }
+  .search-listing-container1 {
+    width: 440px;
+    height: 203px;
+    position: static;
+    padding-right: 351px;
+  }
+  .search-listing-text {
+    top: 109px;
+    left: 18px;
+    position: absolute;
+  }
+  .search-listing-text1 {
+    right: 11px;
+    bottom: 37px;
+    position: absolute;
+  }
+  .search-listing-text2 {
+    left: 20px;
+    bottom: 37px;
+    position: absolute;
+  }
+  .search-listing-text3 {
+    top: 161px;
+    right: 1px;
+    position: absolute;
+  }
+}

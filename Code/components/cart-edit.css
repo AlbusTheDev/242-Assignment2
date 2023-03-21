@@ -1,0 +1,75 @@
+.cart-edit-container {
+  width: 188px;
+  height: 178px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.cart-edit-container1 {
+  width: 186px;
+  height: 162px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.cart-edit-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 44px;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cart-edit-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.cart-edit-button {
+  align-self: center;
+}
+.cart-edit-container4 {
+  flex: 0 0 auto;
+  width: 122px;
+  height: 76px;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.cart-edit-button1 {
+  width: 30px;
+  height: 30px;
+  align-self: flex-end;
+  text-align: center;
+  padding-top: 5px;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.cart-edit-textinput {
+  width: 40px;
+  height: 40px;
+  align-self: flex-end;
+  text-align: center;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+}
+.cart-edit-button2 {
+  width: 30px;
+  height: 30px;
+  align-self: flex-end;
+  text-align: center;
+  padding-top: 5px;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+}
+.cart-edit-root-class-name {
+  position: 0px;
+}

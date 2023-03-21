@@ -1,0 +1,10 @@
+{
+  "name": "csit242_spring2023_-d1_6541604_674349_7368513_66891402",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "scripts": {},
+  "devDependencies": {}
+}
